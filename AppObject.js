@@ -4,12 +4,9 @@ function App(n,m,s){
   this.name = n;
   this.memory = m;
   this.state = s;
-
   //Declare the instance function open here.
   this.open = function(){
     this.state = "active";
-
-
   };
   //Declare the instance function sleep here.
   this.sleep = function(){
@@ -18,8 +15,6 @@ function App(n,m,s){
       this.memory = this.memory/2;
     }
   };
-
-
   //Declare the instance function active here.
   this.active = function(){
     if(this.state = "sleep"){
@@ -27,8 +22,6 @@ function App(n,m,s){
       this.memory = (this.memory*2)*2;
     }
   };
-
-
   //Declare the instance function close here.
   this.close = function(){
     if(this.state /= "null"){
@@ -36,14 +29,13 @@ function App(n,m,s){
       this.memory = 0;
     }
   };
-
-
-
 }
-
 //Use the constructor to create 4 App objects below.
+var chatsnap = new App(chatsnap,69,"active");
+var graminsta = new App(graminsta,420,"active");
+var bookface = new App(bookface,666,"sleep");
+var tubeyou = new App(tubeyou,360,"active");
 
-
-
+applist[chatsnap,graminsta,bookface,tubeyou];
 //Declare an array named appList, and place all 4 of your apps in that array.
 //The order does not matter.
